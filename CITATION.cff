@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use or discuss this public evidence package, please cite it as below."
+title: "SHADOW-Q Benchmark Evidence"
+type: dataset
+authors:
+  - family-names: "Talekar"
+    given-names: "Utsav Jayant"
+    affiliation: "Nexorion Spacetech Ltd"
+    email: "utsav.talekar@nexorionspacetech.com"
+  - name: "Nexorion Spacetech Ltd"
+version: "0.1.0"
+date-released: "2026-10-13"
+url: "https://github.com/nexorionspacetech/shadow-q-benchmark-evidence"
