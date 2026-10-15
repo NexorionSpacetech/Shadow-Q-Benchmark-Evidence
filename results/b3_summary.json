@@ -1,0 +1,22 @@
+{
+  "benchmark": "B3",
+  "title": "Heartbeat failure detection and coordinator agreement",
+  "status": "simulation evidence",
+  "metrics": {
+    "bursty_relay_false_failovers_per_hour_at_1000ms_timeout": {
+      "1_pct_loss": 0.0,
+      "2_pct_loss": 0.0,
+      "5_pct_loss": 0.0,
+      "10_pct_loss": 0.0,
+      "15_pct_loss": 0.25,
+      "20_pct_loss": 1.5
+    },
+    "epoch_election": {
+      "agreement_pct": 100.0,
+      "median_agreement_time_after_detection_ms_typical": 250.0,
+      "p99_agreement_time_after_detection_ms_at_30pct_loss": 450.0,
+      "naive_split_brain_pct_at_30pct_loss": 1.0
+    }
+  },
+  "note": "Agreement times describe the election/agreement stage after failure detection; total recovery also includes the configured detection timeout."
+}

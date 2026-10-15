@@ -1,0 +1,24 @@
+{
+  "benchmark": "B1",
+  "title": "Value-of-Drill site selection",
+  "status": "simulation evidence",
+  "trials": 120,
+  "metrics": {
+    "site_regret_mean": {
+      "random": 0.4371,
+      "grid": 0.4557,
+      "greedy_mean": 0.2395,
+      "max_variance": 0.4494,
+      "value_of_drill": 0.2279
+    },
+    "map_rmse_mean": {
+      "random": 0.4267,
+      "grid": 0.4296,
+      "greedy_mean": 0.4483,
+      "max_variance": 0.3918,
+      "value_of_drill": 0.4323
+    },
+    "value_of_drill_regret_reduction_vs_random_pct": 47.87
+  },
+  "note": "Curated public outcome summary. Internal decision-score implementation is not included."
+}

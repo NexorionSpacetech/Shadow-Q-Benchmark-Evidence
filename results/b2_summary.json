@@ -1,0 +1,30 @@
+{
+  "benchmark": "B2",
+  "title": "Fleet assignment and accelerator specification",
+  "status": "simulation evidence",
+  "instances": 200,
+  "decision_variables": 44,
+  "metrics": {
+    "utility_pct_of_optimum": {
+      "greedy": 79.71,
+      "simulated_annealing_full_precision": 92.98,
+      "best_of_sa_and_greedy": 95.69,
+      "8_bit_quantised": 92.19,
+      "10_bit_plus_1pct_noise": 69.77
+    },
+    "instances_solved_optimally_pct": {
+      "greedy": 33.0,
+      "simulated_annealing_full_precision": 55.0,
+      "best_of_sa_and_greedy": 71.5
+    },
+    "10_bit_noise_sweep_pct_of_optimum": {
+      "0.00_pct_noise": 93.91,
+      "0.10_pct_noise": 93.95,
+      "0.25_pct_noise": 93.15,
+      "0.50_pct_noise": 86.31,
+      "1.00_pct_noise": 72.43,
+      "2.00_pct_noise": 48.01
+    }
+  },
+  "note": "Curated public outcome summary. QUBO construction, penalties, pruning, and solver tuning are not included."
+}

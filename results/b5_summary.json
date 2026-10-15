@@ -1,0 +1,23 @@
+{
+  "benchmark": "B5",
+  "title": "Cooperative localisation: visual odometry + UWB + robust EKF",
+  "status": "simulation evidence",
+  "trials": 30,
+  "metrics": {
+    "dead_reckoning": {
+      "rmse_m": 53.782,
+      "p95_error_m": 126.033
+    },
+    "ekf": {
+      "rmse_m": 0.245,
+      "p95_error_m": 0.467
+    },
+    "robust_ekf": {
+      "rmse_m": 0.228,
+      "p95_error_m": 0.422,
+      "dust_window_rmse_m": 0.298,
+      "time_error_below_0p5m_pct": 97.07
+    }
+  },
+  "note": "Curated public outcome summary. Simulation only; not a flight localisation claim."
+}

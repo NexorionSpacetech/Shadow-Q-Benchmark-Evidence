@@ -1,0 +1,14 @@
+{
+  "benchmark": "B7",
+  "title": "Scaling: where and when acceleration matters",
+  "status": "simulation and timing evidence",
+  "sizes": [
+    {"decision_variables": 44, "exact_workstation_s": 0.0131, "greedy_pct_of_optimum": 82.68, "penalty_qubo_sa_pct_of_optimum": 94.96},
+    {"decision_variables": 200, "exact_workstation_s": 0.0599, "greedy_pct_of_optimum": 81.35, "penalty_qubo_sa_pct_of_optimum": 56.66},
+    {"decision_variables": 492, "exact_workstation_s": 0.6913, "greedy_pct_of_optimum": 68.42, "penalty_qubo_sa_pct_of_optimum": 51.69},
+    {"decision_variables": 976, "exact_workstation_s": 5.6061, "greedy_pct_of_optimum": 64.48, "penalty_qubo_sa_pct_of_optimum": 26.81},
+    {"decision_variables": 2184, "exact_workstation_s": 59.0691, "greedy_pct_of_optimum": 63.89, "penalty_qubo_sa_pct_of_optimum": 53.85}
+  ],
+  "onboard_slowdown_projection_range": [20, 200],
+  "note": "Onboard timing is a projection, not a measured flight result. Internal QUBO construction is not included."
+}

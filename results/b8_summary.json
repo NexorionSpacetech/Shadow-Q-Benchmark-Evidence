@@ -1,0 +1,24 @@
+{
+  "benchmark": "B8",
+  "title": "QAOA warm-start evidence",
+  "status": "exact statevector simulation",
+  "instances_per_size": 6,
+  "shots": 64,
+  "metrics": {
+    "10_qubits": {
+      "random_best64_pct_of_optimum": 47.46,
+      "best_qaoa_sample_pct_of_optimum": 97.46,
+      "short_anneal_random_start_pct_of_optimum": 8.43,
+      "short_anneal_qaoa_start_pct_of_optimum": 97.46,
+      "qaoa_optimum_probability_multiple_vs_uniform_p3": 26.53
+    },
+    "15_qubits": {
+      "random_best64_pct_of_optimum": 0.0,
+      "best_qaoa_sample_pct_of_optimum_p1": 69.28,
+      "short_anneal_random_start_pct_of_optimum": 14.92,
+      "short_anneal_qaoa_start_pct_of_optimum": 46.82,
+      "qaoa_optimum_probability_multiple_vs_uniform_p3": 143.66
+    }
+  },
+  "note": "Simulation validates the workflow only. It does not demonstrate quantum advantage. Internal QUBO/QAOA implementation is not included."
+}

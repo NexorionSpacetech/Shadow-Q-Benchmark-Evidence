@@ -1,0 +1,27 @@
+{
+  "benchmark": "B6",
+  "title": "Lander drill-operations planning",
+  "status": "simulation evidence",
+  "metrics": {
+    "48h_approx_2_cycles_success_pct": {
+      "fixed_timeline": 50.0,
+      "fixed_plus_forecast": 50.5,
+      "bisection": 59.5,
+      "value_of_drill": 68.5
+    },
+    "120h_approx_5_cycles_success_pct": {
+      "fixed_timeline": 73.5,
+      "fixed_plus_forecast": 74.0,
+      "bisection": 76.0,
+      "value_of_drill": 81.5
+    },
+    "240h_approx_10_cycles_success_pct": {
+      "fixed_timeline": 89.0,
+      "fixed_plus_forecast": 88.5,
+      "bisection": 89.0,
+      "value_of_drill": 92.0
+    },
+    "forecasted_policy_aborts_in_reported_runs": 0
+  },
+  "note": "Curated public outcome summary. Adaptive depth/timing implementation and internal scoring are not included."
+}

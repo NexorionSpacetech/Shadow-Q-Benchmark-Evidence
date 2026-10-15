@@ -1,0 +1,15 @@
+{
+  "benchmark": "B4",
+  "title": "Shadow Clock illumination-aware traverse planning",
+  "status": "simulation evidence",
+  "pairs": 23,
+  "metrics": {
+    "snapshot_found_path_pct": 69.57,
+    "shadow_clock_found_path_pct": 95.65,
+    "snapshot_paths_entering_darkness_pct": 31.25,
+    "snapshot_max_continuous_dark_min": 12.0,
+    "shadow_clock_planned_dark_exposure_min": 0.0,
+    "site_mean_illumination_pct_over_36h": 27.15
+  },
+  "note": "Curated public outcome summary. Production planner implementation is not included."
+}
